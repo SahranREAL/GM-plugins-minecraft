@@ -1,0 +1,13 @@
+# By Sahran
+
+options: 
+ 
+command /gmc:
+  permission: gm.creative
+  permission message: "&1GM &7| &4Vous avez pas la permission pour exectuer cette commande!"
+# Message si vous n'avez pas la permission
+
+  trigger:
+    set gamemode of player to creative
+    message "&1GM &7| &6Votre gamemode a été changé en &cCreative"
+# message si vous avez la permission
