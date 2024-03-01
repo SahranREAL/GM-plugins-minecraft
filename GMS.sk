@@ -1,0 +1,8 @@
+options: 
+ 
+command /gms:
+  permission: gm.survival
+  permission message: "&5GM &7| &4Vous avez pas la permission pour exectuer cette commande!"
+  trigger:
+    set gamemode of player to survival
+    message "&5GM &7| &6Votre gamemode a été changé en &cSurvival"
